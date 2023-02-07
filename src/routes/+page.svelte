@@ -1,11 +1,24 @@
 <script lang="ts">
-	import IntersectionObserver from './../Components/IntersectionObserver.svelte';
-	import Welcome from './../Components/Welcome.svelte';
-  import "../Styling/global.scss"
+	// Global styles
+	import '../Styling/global.scss';
+
+	// Section imports
+	import Section from '../Components/Section.svelte';
+	import PeopleGrid from '../Components/peopleGrid.svelte';
+	import Welcome from '../Components/Sections/Welcome.svelte';
+	import NavBar from '../Components/NavBar.svelte';
+	import About from '../Components/Sections/About.svelte';
 </script>
 
-<IntersectionObserver steps={100} threshold={50} let:visibleOnce>
-  {#if visibleOnce}
-    <Welcome />
-  {/if}
-</IntersectionObserver>
+<NavBar />
+
+<Section id="welcome">
+	<Welcome />
+</Section>
+
+<Section id="about">
+	<About />
+</Section>
+<Section id="people">
+	<PeopleGrid />
+</Section>

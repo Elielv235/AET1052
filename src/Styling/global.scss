@@ -9,4 +9,9 @@
 html, body {
   min-height: 100vh;
   overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+img {
+  user-select: none;
 }
