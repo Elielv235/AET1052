@@ -12,6 +12,6 @@ html, body {
   scroll-behavior: smooth;
 }
 
-img {
+img, .unselectable {
   user-select: none;
 }
