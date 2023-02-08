@@ -21,7 +21,7 @@
 <Section id="about">
 	<About />
 </Section>
-<Section id="Research">
+<Section id="research">
 	<Research />
 </Section>
 <Section id="Team">

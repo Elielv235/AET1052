@@ -1,7 +1,7 @@
 <script lang="ts">
 </script>
 
-<div class="Research">
+<div id="research">
 	<h1>חקר</h1>
 	<h2 class="explain">
 		ערכנו סקרים שקשורים לבעיה שמצאנו. ובדקנו כמה אנשים נתקלו באותם הבעיות, ועקב כך התחלנו לחשוב על
@@ -11,7 +11,7 @@
 </div>
 
 <style lang="scss">
-	.Research {
+	#research {
 		display: flex;
 		justify-content: center;
 		align-items: center;

@@ -11,7 +11,7 @@
 		<span>|</span>
 		<a href="#about">אודות</a>
 		<span>|</span>
-		<a href="#about">חקר</a>
+		<a href="#research">חקר</a>
 		<span>|</span>
 		<a href="#Team">חברי הקבוצה</a>
 		<span>|</span>
