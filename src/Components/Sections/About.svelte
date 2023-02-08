@@ -18,8 +18,9 @@
 		flex-direction: column;
 
 		.explain {
-			margin-left: 10%;
-			margin-right: 10%;
+			margin-left: 51px;
+			margin-right: 51px;
+			font-size: 40px;
 		}
 	}
 </style>

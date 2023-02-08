@@ -8,10 +8,14 @@
   </div>
   <div class="navbar-buttons">
     <a href="#home">בית</a>
+    <span>|</span>
     <a href="#about">אודות</a>
+    <span>|</span>
     <a href="#about">חקר</a>
+    <span>|</span>
     <a href="#about">חברי הקבוצה</a>
-    <a href="#about">מדיה</a>
+    <span>|</span>
+    <a href="#about">מדיה</a> 
     
   </div>
 </div>

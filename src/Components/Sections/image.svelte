@@ -8,10 +8,12 @@
 
 <style lang="scss">
 	#people {
-		max-width: 1024px;
 		display: grid;
 
 		.image {
+			margin-top: 5px;
+			margin-bottom: 5px;
+			border-radius: 10px;
 			width: 100%;
 		}
 	}
